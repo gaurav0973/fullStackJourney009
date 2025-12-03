@@ -1,5 +1,5 @@
 {
-  "name": "03_notes_crud_apis",
+  "name": "04_better_auth",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,16 +9,21 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "mongoose": "^9.0.0",
+    "@prisma/adapter-pg": "^7.0.1",
+    "@prisma/client": "^7.0.1",
     "next": "16.0.6",
     "react": "19.2.0",
-    "react-dom": "19.2.0",
-    "react-hot-toast": "^2.6.0"
+    "react-dom": "19.2.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.0.6",
-    "tailwindcss": "^4"
+    "prisma": "^7.0.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
