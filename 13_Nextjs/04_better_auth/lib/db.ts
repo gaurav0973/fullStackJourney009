@@ -12,7 +12,7 @@ const adapter = new PrismaPg({
 export const client =
   globalForPrisma.prisma ??
   new PrismaClient({
-    adapter,
+    adapter
   });
 
 if (process.env.NODE_ENV !== "production") globalForPrisma.prisma = client;
